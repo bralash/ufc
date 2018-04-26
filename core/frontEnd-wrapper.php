@@ -1,7 +1,7 @@
 <?php	
-	require_once("core/class.general.php");
-	require_once("core/class.user.php");
-  	require_once("core/updator.php");
+	require_once(ROOT_PATH . "core/class.general.php");
+	require_once(ROOT_PATH . "core/class.user.php");
+  	require_once(ROOT_PATH . "core/updator.php");
 	
 	//Create an Object of USER class
 	$front = new USER();
